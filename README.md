@@ -1,5 +1,9 @@
 # Redux
 
+Links úteis utilizados para este estudo:
+
+- https://redux.js.org/basics/basic-tutorial
+
 ## Action
 
 As actions são objetos que devem ter um type para indicar o tipo da ação que está sendo executada.
@@ -12,8 +16,7 @@ Basicamente, é a regra de negócio do Redux.
 
 > <sub>Sempre deve ter um retorno default do estado caso a action não seja encontrada</sub><br>
 
-> <sub><b>Não é recomendado:</b>
-> <br> - Realizar chamadas a API;
+> <sub><b>Não é recomendado:</b> > <br> - Realizar chamadas a API;
 > <br> - Chamar funções não puras como `Date.now()` ou `Math.random()`;
 > <br> - Mudar os seus argumentos.
 > </sub><br>
