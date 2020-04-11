@@ -10,8 +10,8 @@ As actions são objetos que devem ter um type para indicar o tipo da ação que 
 
 ## Reducer
 
-Os reducer são funções que devem ser puras, e que especificam como o estado da deve ser atualizado.
-Basicamente, é a regra de negócio do Redux.
+Os reducer são funções que devem ser puras, e que especificam como o estado da aplicação deve ser atualizado.
+Basicamente, os reducers são onde os estados do Redux deve estar.
 <br>
 
 > <sub>Sempre deve ter um retorno default do estado caso a action não seja encontrada</sub><br>
@@ -33,7 +33,7 @@ O fluxo de dados do Redux é baseado em <i>Fluxo de dados unidirecional estrito<
 
 # React Redux
 
-Links úteis para estudo: 
+Links úteis para estudo:
 
 - https://redux.js.org/basics/usage-with-react
 
@@ -59,10 +59,10 @@ Função que mapeia o método `dispatch` para as propriedades do componente, per
 
 ## Estrutura indicada pela comunidade do Redux
 
-*** Container *** - Onde toda a regra do componente deve estar. Tais como comunicação com o Redux para ler e setar novos estados.
+**_ Container _** - Onde toda a regra do componente deve estar. Tais como comunicação com o Redux para ler e setar novos estados.
 
-*** Components *** - Onde toda a parte visual da aplicação deve estar e onde a conexão com o Redux deve ser somente de leitura.
+**_ Components _** - Onde toda a parte visual da aplicação deve estar e onde a conexão com o Redux deve ser somente de leitura.
 
 ## Usabilidade do Redux com React
 
-O Redux não é exclusivo de algum framework, na verdade ele pode ser usado com qualer framerwork JavaScript.
+O Redux não é exclusivo de algum framework, na verdade ele pode ser usado com qualquer framerwork JavaScript.
