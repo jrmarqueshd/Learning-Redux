@@ -66,3 +66,11 @@ Função que mapeia o método `dispatch` para as propriedades do componente, per
 ## Usabilidade do Redux com React
 
 O Redux não é exclusivo de algum framework, na verdade ele pode ser usado com qualquer framerwork JavaScript.
+
+# Redux Persist
+
+Links úteis para estudo: https://www.npmjs.com/package/redux-persist#basic-usage
+
+Essa lib serve para persistir os states do Redux em localstorage. <br> Isso é possível por duas funções que a própria lib oferece, `persisReducer` e `persistStore`.
+<br>
+Também é possível adicionar uma "whitelist" para liberar apenas um objeto da store a ser persistido. E da mesma formaé possível também adicionar uma "blacklist" para que todos os objetos da store sejam adicionados, menos o informado.
